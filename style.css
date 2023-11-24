@@ -1,0 +1,200 @@
+body {
+  
+}
+
+#navbar {
+  background-color: #d4e9e2;
+ 
+}
+.contain a  {
+  color: #008248;
+  font-weight: 900;
+}
+.contain a:hover {
+  font-size: 20px;
+  color: white;
+}
+.contain span {
+  color: white;
+  font-size: 28px;
+}
+.contain button {
+  background: #008248;
+  color: #d4e9e2;
+  border: none;
+  width: 90px;
+  height: 40px;
+}
+.contain button:hover {
+  background-color: #1e3932;
+}
+
+.home {
+  margin-top: 30px;
+  background-image: url(images/travel-online-booking-service-app-260nw-1937206981.jpgcopy.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  z-index: 2;
+}
+.home .content h5 {
+  font-size: 20px;
+  margin-left: 20%;
+}
+.content button {
+  margin-top: 25%;
+  margin-left: 15%;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: #008248;
+  color: white;
+  border-radius: 5px;
+}
+.home .visit {
+  margin-top: 10%;
+}
+#packages .card {
+  background-color: #d4e9e2;
+  
+}
+#packages .card h3 {
+  color: #008248;
+}
+#packages h1 {
+  color: #1e3932;
+  font-weight: 800;
+}
+#packages span {
+  color: #008248;
+  font-weight: bold;
+}
+#packages h6,
+#packages p{
+  color: #1e3932;
+}
+#packages .star i {
+  color: gold;
+}
+#packages button {
+  background: #008248;
+  color: #d4e9e2;
+  border: none;
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+}
+#packages button:hover {
+  transform: scale(0.9);
+  background-color: #1e3932;
+
+}
+#services h1 {
+  color: #1e3932;
+  font-weight: 800;
+}
+#services span {
+  color: #008248;
+  font-weight: bold;
+}
+.servs .card {
+  background-color: #e0eeea;
+  text-align: center;
+  padding-top: 10px;
+}
+.servs .card i {
+  font-size: 30px;
+  color: #008248;
+  
+}
+.servs .card h3 {
+  color: #1e3932;
+}
+.main-txt h1 {
+ color: #1e3932;
+ font-weight: 800;
+}
+.main-txt span {
+    color: #008248;
+    font-weight: bold;
+  }
+  .about h1 {
+    font-weight: 800;
+  }
+  .about h2 {
+    color: #1e3932;
+  }
+  .about button {
+    background: #008248;
+    color: #d4e9e2;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .about button:hover {
+    transform: scale(0.9);
+    background-color: #1e3932;
+  
+  }
+  
+  #footer {
+    background-color: #d4e9e2;
+  }
+  #footer h1 {
+    color: #1e3932;
+    font-weight: 800;
+  }
+
+  #book h1{
+  
+      color: #1e3932;
+      font-weight: 800;
+    }
+    #book span {
+      color: #008248;
+      font-weight: bold;
+    }
+    #book .submit {
+        background: #008248;
+        color: #d4e9e2;
+        border: none;
+        width: 140px;
+        height: 40px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      #book .submit:hover {
+        transform: scale(0.9);
+        background-color: #1e3932;
+      
+      }
+      #book {
+        background-color: #d4e9e2;
+      }
+      #book input,
+      #book textarea{
+        border: 1px solid #008248;
+        color: #1e3932;
+      }
+      #book input,
+      #book textarea::placeholder {
+        color: #1e3932;
+      }
+    
+  
+
+  
+@media (max-width: 740px) {
+  .home {
+    height: 50vh;
+    margin-top: 60px;
+  }
+
+  .content button {
+    margin-top: 25%;
+    margin-left: 10%;
+   
+  }
+}
